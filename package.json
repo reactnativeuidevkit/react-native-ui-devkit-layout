@@ -1,0 +1,56 @@
+{
+  "name": "react-native-ui-devkit-layout",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest",
+    "postinstall": "patch-package"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
+    "moment": "^2.29.4",
+    "patch-package": "^6.5.1",
+    "react": "18.2.0",
+    "react-native": "0.72.5",
+    "react-native-device-info": "^10.9.0",
+    "react-native-extra-dimensions-android": "1.2.5",
+    "react-native-gesture-handler": "^2.13.1",
+    "react-native-haptic-feedback": "^2.2.0",
+    "react-native-image-picker": "^7.0.0",
+    "react-native-keep-awake": "^4.0.0",
+    "react-native-navbar-color": "^1.0.3",
+    "react-native-reanimated": "^3.5.4",
+    "react-native-safe-area-context": "^4.7.2",
+    "react-native-screens": "^3.25.0",
+    "react-native-sfsymbols": "^1.2.1",
+    "react-native-splash-screen": "^3.3.0",
+    "react-native-ui-devkit": "^2.0.0",
+    "react-native-vector-icons": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/eslint-config": "^0.72.2",
+    "@react-native/metro-config": "^0.72.11",
+    "@tsconfig/react-native": "^3.0.0",
+    "@types/react": "^18.0.24",
+    "@types/react-native-keep-awake": "^2.0.4",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.2.1",
+    "eslint": "^8.19.0",
+    "jest": "^29.2.1",
+    "metro-react-native-babel-preset": "0.76.8",
+    "prettier": "^2.4.1",
+    "react-test-renderer": "18.2.0",
+    "typescript": "4.8.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
